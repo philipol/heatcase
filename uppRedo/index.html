@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link class="cssDesktop css" rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Startsida</title>
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"><img src="img/frontend-stor.jpg"
+                        <a href="tjanster.html"><img class="tjanster-img" src="img/frontend-stor.jpg"
                         alt="Utveckling App/Webb" ></a>
                         <div class="numbertext">1 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -65,7 +65,7 @@
 
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"><img src="img/adds.jpg"
+                        <a href="tjanster.html"><img class="tjanster-img" src="img/adds.jpg"
                         alt="Adds"> </a>       
                         <div class="numbertext">2 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -75,7 +75,7 @@
 
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"><img src="img/design.jpg" 
+                        <a href="tjanster.html"><img class="tjanster-img" src="img/design.jpg" 
                         alt="Design" ></a>
                         <div class="numbertext">3 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -85,7 +85,7 @@
 
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"></a><img src="img/analys.jpg" 
+                        <a href="tjanster.html"></a><img class="tjanster-img" src="img/analys.jpg" 
                             alt="Analys"> </a>                   
                         <div class="numbertext">4 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -95,7 +95,7 @@
 
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"><img src="img/socialamedier-temp.jpg"
+                        <a href="tjanster.html"><img class="tjanster-img" src="img/socialamedier-temp.jpg"
                         alt="Socialamedier"></a>
                         <div class="numbertext">5 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -105,7 +105,7 @@
 
                 <div class="mySlides">
                     <article>
-                        <a href="tjanster.html"><img src="img/seo-temp.jpg"
+                        <a href="tjanster.html"><img class="tjanster-img" src="img/seo-temp.jpg"
                         alt="SEO/Sökoptimering"></a>
                         <div class="numbertext">6 / 6</div>
                         <a class="prev" onclick="nextSlides(-1)">❮</a>
@@ -171,13 +171,13 @@
                         onmouseover="hoverImg(this)" onmouseout="normalImg(this)" alt="work photo">        
                 </div>-->
         </section>
-        <section class="index-collage">
+        <!--<section class="index-collage">
             <img src="img/collage-1.png" class="colage-img-1" alt="">
             <img src="img/collage-2.png" class="colage-img-2" alt="">
             <img src="img/collage-4.png" class="colage-img-3" alt="">
             <img src="img/collage-3.png" class="colage-img-4" alt="">
             <img src="img/senaste-kund.png" class="colage-img-5" alt="">
-        </section>
+        </section>-->
         <section>
             <article></article>
             <article></article>
@@ -236,8 +236,10 @@
                 <a href="kontakt.html"><h5>Kontakt</h5></a>
             </section>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="cssToggle.js"></script>
+        <script src="mobile.js"></script>
         <script src="java.js"></script>
         <script src="scroll.js"></script>
-        <script src="mobile.js"></script>
     </body>
 </html>
