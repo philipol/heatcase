@@ -1,2 +1,0 @@
-# heatcase
-Heatcase webbsite
