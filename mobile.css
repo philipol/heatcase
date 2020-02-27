@@ -186,7 +186,7 @@ body {
 
 .welcome div button {
   width: 220px;
-  height: 50px;
+  height: auto;
   font-size: 24px;
   background-color: transparent;
   border: 2px solid wheat;
@@ -240,7 +240,7 @@ body {
 
 .omOss-link article button {
   width: 200px;
-  height: 35px;
+  height: auto;
   font-size: 20px;
   margin-top: 10px;
   background-color: transparent;
@@ -442,7 +442,7 @@ body {
 
 .kontakt-link button {
   width: 200px;
-  height: 50px;
+  height: auto;
   font-size: 20px;
   margin-top: 15px;
   margin-bottom: 15px;

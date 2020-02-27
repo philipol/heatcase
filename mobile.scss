@@ -143,7 +143,7 @@ body {
         }
         button {
             width: 220px;
-            height: 50px;
+            height: auto;
             font-size: 24px;
             background-color: transparent;
             border: 2px solid wheat;
@@ -187,7 +187,7 @@ body {
         }
         button {
             width: 200px;
-            height: 35px;
+            height: auto;
             font-size: 20px;
             margin-top: 10px;
             background-color: transparent;
@@ -341,7 +341,7 @@ body {
     }
     button {
         width: 200px;
-        height: 50px;
+        height: auto;
         font-size: 20px;
         margin-top: 15px;
         margin-bottom: 15px;
