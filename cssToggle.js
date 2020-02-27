@@ -38,3 +38,4 @@ $(window).resize(function() {
   
 });
 alert(window.innerWidth)
+alert(window.innerHeight)
