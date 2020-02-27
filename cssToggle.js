@@ -10,6 +10,7 @@ if(window.innerWidth > 600){
   css.classList.add('cssMobile')
   console.log('mobil')
 }
+alert(css.href)
 
 $(window).resize(function() {
   let cssMobile = document.querySelector(".cssMobile")
@@ -36,3 +37,4 @@ $(window).resize(function() {
   }
   
 });
+alert(window.innerWidth)
