@@ -1,3 +1,7 @@
+.displayNoneBody {
+  display: none;
+}
+
 body {
   width: 100%;
   background-image: url("img/bg_bc.png");
@@ -129,13 +133,7 @@ body {
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.index-header .mobileNav ul li {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.index-header .mobileNav ul li a {
+.index-header .mobileNav ul a {
   margin-top: 10px;
   color: white;
   font-size: 30px;
@@ -143,6 +141,12 @@ body {
   text-align: center;
   text-decoration: none;
   text-shadow: 3px 2px black;
+}
+
+.index-header .mobileNav ul a li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .scroll {
@@ -577,9 +581,9 @@ body {
 .alla-tjanster article h3 {
   color: white;
   width: auto;
-  height: 20%;
-  margin-top: 25%;
-  font-size: 28px;
+  height: auto;
+  margin: 20% auto;
+  font-size: 34px;
 }
 
 .alla-tjanster article .large-text {
@@ -787,6 +791,7 @@ body {
   -ms-grid-row: 2;
   grid-row: 2;
   margin: -10px;
+  margin-bottom: 20px;
   height: auto;
   min-height: 750px;
 }
@@ -814,17 +819,16 @@ body {
   margin-bottom: 10px;
 }
 
-.kontakt-bc .kontakt-form form .formInputsLeft {
-  display: inline-block;
-  width: 45%;
+.kontakt-bc .kontakt-form form .formInputTop {
+  display: block;
+  width: 100%;
   margin: 0;
 }
 
-.kontakt-bc .kontakt-form form .formInputsRight {
-  display: inline-block;
-  width: 45%;
+.kontakt-bc .kontakt-form form .formInputsBottom {
+  display: block;
+  width: 100%;
   margin: 0;
-  margin-left: 8%;
 }
 
 .kontakt-bc .kontakt-form form label {

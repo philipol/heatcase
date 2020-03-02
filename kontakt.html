@@ -19,11 +19,11 @@
             <a class="logo-link" href="index.html"><img class="logo-link" src="img/logo-vit.png" alt="logo-link"></a>
             <nav>
                 <ul>
-                    <li><a href="index.html">Start</a></li>
-                    <li><a href="om-oss.html">Om oss</a></li>
-                    <li><a href="tjanster.html">Tjänster</a></li>
-                    <li><a href="kunder.html">Kunder</a></li>
-                    <li class="current"><a href="kontakt.html">Kontakt</a></li>
+                    <a href="index.html"><li>Start</li></a>
+                    <a href="om-oss.html"><li>Om oss</li></a>
+                    <a href="tjanster.html"><li>Tjänster</li></a>
+                    <a href="kunder.html"><li>Kunder</li></a>
+                    <a href="kontakt.html" class="current"><li>Kontakt</li></a>
                 </ul>
             </nav>
         </header>
@@ -51,25 +51,33 @@
                     </article>
                 </section>
                 <section class="kontakt-form">
-                   <form>
+                   <form action="form.php" method="POST">
                         <div class="formText">
                             <h3>Hör av dig!</h3>
                             <h4>Så kontaktar vi dig så fort som möjligt.</h4>
                         </div>
-                        <div class="formInputsLeft">
-                            <label for="name">Ditt namn: </label>
-                            <input type="text" placeholder="Karl Håkansson" name="name">
-                            <label for="email">Email: </label>
-                            <input type="email" placeholder="exempel@exempel.com" name="email">
+                        <div class="formInputsTop">
+                            <div class="inputGroup inputGroupLeft">
+                                <label for="name">Ditt namn: </label>
+                                <input type="text" placeholder="Karl Håkansson" name="name">    
+                            </div>
+                            <div class="inputGroup">
+                                <label for="Ab-name" class="labelRight">Företagets namn: </label>
+                                <input type="text" placeholder="Håkansson AB" name="Ab-name" class="">
+                            </div>
                         </div>
-                        <div class="formInputsRight">
-                            <label for="Ab-name" class="labelRight">Företagets namn: </label>
-                            <input type="text" placeholder="Håkansson AB" name="Ab-name" class="">
-                            <label for="tel" class="fromRight">Mobilnummer: </label>
-                            <input type="tel" placeholder="072-XXX XX XX" name="tel" class="">
+                        <div class="formInputsBottom">
+                            <div class="inputGroup inputGroupLeft">
+                                <label for="email">Email: </label>
+                                <input type="email" placeholder="exempel@exempel.com" name="email">
+                            </div>
+                            <div class="inputGroup">
+                                <label for="tel" class="fromRight">Mobilnummer: </label>
+                                <input type="tel" placeholder="072-XXX XX XX" name="tel" class="">
+                            </div>
                         </div>
                         <label for="">Meddelande: </label>
-                        <textarea name="" cols="30" rows="10" placeholder="Vad skulle vi kunna hjälpa dig med?" value></textarea>
+                        <textarea name="msg" cols="30" rows="10" placeholder="Vad skulle vi kunna hjälpa dig med?" value></textarea>
                         <input type="submit" value="Skicka">
                    </form>
                 </section>
@@ -109,5 +117,7 @@
         <script src="cssToggle.js"></script>
         <script src="scroll.js"></script>
         <script src="mobile.js"></script>
+        <script src="cssRezise.js"></script>
+
     </body>
 </html>

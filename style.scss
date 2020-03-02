@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -15,7 +15,7 @@ body {
     background-image: url("img/bg_bc.png");
 }
 /*temp*/
-img {
+/*img {
     max-width: 100vw;
 }
 .index-header {
@@ -189,7 +189,7 @@ img {
     .container {
         width: 100%;
           /* Hide the images by default */
-        a {
+       /* a {
             width: 100%;
             grid-column: 1/8;
             grid-row: 1/6;
@@ -213,7 +213,7 @@ img {
             grid-row: 1/6;
         }
         /* Number text (1/3 etc) */
-        .numbertext {
+        /*.numbertext {
             color: #f2f2f2;
             background-color: rgba(0, 0, 0, 0.6);
             font-size: 18px;
@@ -224,7 +224,7 @@ img {
             grid-row: 1/5;
         }
         /* Position the "next button" to the right */
-        .prev {
+        /*.prev {
             grid-column: 2;
             grid-row: 3;
         }
@@ -233,7 +233,7 @@ img {
             grid-row: 3;
         }
         /* Next & previous buttons */
-        .prev,
+        /*.prev,
         .next {
             width: 90%;
             height: 45px;
@@ -249,7 +249,7 @@ img {
         }
         
         /* On hover, add a black background color with a little bit see-through */
-        .prev:hover,
+        /*.prev:hover,
         .next:hover {
             background-color: rgba(0, 0, 0, 0.4);
             cursor: pointer;
@@ -288,7 +288,7 @@ img {
         }
         /* Six columns side by side */
         /* Add a transparency effect for thumnbail images */
-        .demo {
+        /*.demo {
             opacity: 0.4;
         }
         
@@ -521,7 +521,7 @@ img {
 /*.tjanster-content {
     //display: block;
 }*/
-.dropdownContent {
+/*.dropdownContent {
     display: none;
 }
 .tjanster-content {
@@ -963,7 +963,7 @@ footer {
         .container {
             width: 100%;
               /* Hide the images by default */
-            a {
+           /* a {
                 width: 100%;
                 grid-column: 1/8;
                 grid-row: 1/6;
@@ -987,7 +987,7 @@ footer {
                 grid-row: 1/6;
             }
             /* Number text (1/3 etc) */
-            .numbertext {
+            /*.numbertext {
                 color: #f2f2f2;
                 background-color: rgba(0, 0, 0, 0.6);
                 font-size: 18px;
@@ -998,7 +998,7 @@ footer {
                 grid-row: 1/5;
             }
             /* Position the "next button" to the right */
-            .prev {
+            /*.prev {
                 grid-column: 2;
                 grid-row: 3;
             }
@@ -1007,7 +1007,7 @@ footer {
                 grid-row: 3;
             }
             /* Next & previous buttons */
-            .prev,
+            /*.prev,
             .next {
                 width: 90%;
                 height: 45px;
@@ -1023,7 +1023,7 @@ footer {
             }
             
             /* On hover, add a black background color with a little bit see-through */
-            .prev:hover,
+            /*.prev:hover,
             .next:hover {
                 background-color: rgba(0, 0, 0, 0.4);
                 cursor: pointer;
@@ -1053,7 +1053,7 @@ footer {
             }
             /* Six columns side by side */
             /* Add a transparency effect for thumnbail images */
-            .demo {
+            /*.demo {
                 opacity: 0.4;
             }
             
@@ -1242,7 +1242,7 @@ footer {
     /*.tjanster-content {
         //display: block;
     }*/
-    .dropdownContent {
+    /*.dropdownContent {
         display: none;
     }
     .tjanster-content {

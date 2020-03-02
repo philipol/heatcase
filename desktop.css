@@ -1,3 +1,7 @@
+.displayNoneBody {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -44,7 +48,7 @@ img {
 }
 
 .index-header .current:hover {
-  border: none;
+  color: gray;
   border-bottom: 1px solid white;
 }
 
@@ -74,13 +78,7 @@ img {
   padding: 0;
 }
 
-.index-header nav ul li {
-  display: inline;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.index-header nav ul li a {
+.index-header nav ul a {
   color: white;
   font-size: 18px;
   font-weight: 600;
@@ -90,7 +88,13 @@ img {
   text-shadow: 3px 2px black;
 }
 
-.index-header nav ul li a:hover {
+.index-header nav ul a li {
+  display: inline;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.index-header nav ul a a:hover {
   color: gray;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -98,8 +102,8 @@ img {
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
 }
 
-.index-header nav ul li:hover {
-  border-bottom: 1px solid gray;
+.index-header nav ul a:hover {
+  border-bottom: 2px solid black;
 }
 
 .scroll {
@@ -623,6 +627,7 @@ img {
 .alla-tjanster article {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5%;
+  min-width: 31%;
   margin: 5px;
   text-align: center;
   vertical-align: middle;
@@ -633,7 +638,7 @@ img {
   width: auto;
   height: 20%;
   margin-top: 25%;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .alla-tjanster article .large-text {
@@ -872,17 +877,26 @@ img {
   margin-bottom: 10px;
 }
 
-.kontakt-bc .kontakt-form form .formInputsLeft {
+.kontakt-bc .kontakt-form form .formInputTop {
   display: inline-block;
-  width: 48%;
+  width: 100%;
   margin: 0;
 }
 
-.kontakt-bc .kontakt-form form .formInputsRight {
+.kontakt-bc .kontakt-form form .formInputsBottom {
   display: inline-block;
-  width: 48%;
+  width: 100%;
   margin: 0;
-  margin-left: 3%;
+}
+
+.kontakt-bc .kontakt-form form .inputGroup {
+  display: inline-block;
+  margin: 0;
+  width: 48%;
+}
+
+.kontakt-bc .kontakt-form form .inputGroupLeft {
+  margin-right: 2%;
 }
 
 .kontakt-bc .kontakt-form form label {
@@ -1149,12 +1163,7 @@ footer section div .footer-icon-link {
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
-  .index-header .mobileNav ul li {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .index-header .mobileNav ul li a {
+  .index-header .mobileNav ul a {
     margin-top: 10px;
     color: white;
     font-size: 30px;
@@ -1162,6 +1171,11 @@ footer section div .footer-icon-link {
     text-align: center;
     text-decoration: none;
     text-shadow: 3px 2px black;
+  }
+  .index-header .mobileNav ul a li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .welcome {
     display: -ms-grid;
