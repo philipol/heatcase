@@ -7,12 +7,14 @@ $(window).resize(function() {
       if(css.classList[1] == 'cssDesktop'){
         console.log('Desktopversion redan innan')
       }else {
-        css.href = 'desktop.css'
-        css.classList.remove('cssMobile')
-        css.classList.add('cssDesktop')
-        console.log('Desktopversion nu')
+          let i
+          for(i=0; i < 1; i++) {
+              css.href = 'desktop.css'
+              css.classList.remove('cssMobile')
+              css.classList.add('cssDesktop')
+              console.log('Desktopversion nu' + this.innerWidth)
+          }
       }
-  
     }else {
       if(css.classList[1] == 'cssMobile'){
         console.log('Mobileversion redan innan')
