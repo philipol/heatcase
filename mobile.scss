@@ -442,11 +442,12 @@ body {
     gap: 5px;
     padding: 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     article {
         background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 5%;
+        border-radius: 25px;
+        height: 100%;
         margin: 5px;
+        padding: 15% 1%;
         text-align: center;
         vertical-align: middle;
         
@@ -454,12 +455,12 @@ body {
             color: white;
             width: auto;
             height: auto;
-            margin: 20% auto;
+            margin: 5% 0;
             font-size: 34px;
         }
         .large-text {
             height: 60%;
-            margin-top: 20%;
+            margin: 0;
         }
         a {
             text-decoration: none;
@@ -513,6 +514,19 @@ body {
         color: #f2f2f2;
         font-size: 18px;
     }
+}
+.pilupp {
+    animation-duration: 1.5s;
+    position: fixed;
+    bottom: 7%;
+    right: 3%;
+    width: 10vw;
+    height: 10vw;
+    cursor: pointer;
+}
+.pilRotated {
+    animation-duration: 1.5s;
+    transform: rotate(180deg);
 }
 // Kund sidan
 .kunder-body{

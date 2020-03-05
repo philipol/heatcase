@@ -1,5 +1,6 @@
+
 <?php
- $namn = $_POST['name'];
+ /*$namn = $_POST['name'];
  $email = $_POST['email'];
  $foretagsNamn = $_POST['Ab-name'];
  $tel = $_POST['tel'];
@@ -16,5 +17,5 @@
      echo"registration success";
      $stmt->close();
      $conn->close();
- }
+ }*/
 ?>

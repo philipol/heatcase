@@ -566,14 +566,14 @@ body {
   padding: 10px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
 }
 
 .alla-tjanster article {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5%;
+  border-radius: 25px;
+  height: 100%;
   margin: 5px;
+  padding: 15% 1%;
   text-align: center;
   vertical-align: middle;
 }
@@ -582,13 +582,13 @@ body {
   color: white;
   width: auto;
   height: auto;
-  margin: 20% auto;
+  margin: 5% 0;
   font-size: 34px;
 }
 
 .alla-tjanster article .large-text {
   height: 60%;
-  margin-top: 20%;
+  margin: 0;
 }
 
 .alla-tjanster article a {
@@ -653,6 +653,24 @@ body {
   margin-left: 5%;
   color: #f2f2f2;
   font-size: 18px;
+}
+
+.pilupp {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  position: fixed;
+  bottom: 7%;
+  right: 3%;
+  width: 10vw;
+  height: 10vw;
+  cursor: pointer;
+}
+
+.pilRotated {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .kunder-body {

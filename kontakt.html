@@ -51,7 +51,9 @@
                     </article>
                 </section>
                 <section class="kontakt-form">
-                   <form action="#" method="">
+                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                    action="https://script.google.com/macros/s/AKfycbwqIYe1ONDIIX4TmAx5wOnBaYr2SPK3vvJAcYzu/exec">
+                    <div class="form-elements">    
                         <div class="formText">
                             <h3>Hör av dig!</h3>
                             <h4>Så kontaktar vi dig så fort som möjligt.</h4>
@@ -59,26 +61,32 @@
                         <div class="formInputsTop">
                             <div class="inputGroup inputGroupLeft">
                                 <label for="name">Ditt namn: </label>
-                                <input type="text" placeholder="Karl Karlsson" name="name">    
+                                <input id="name" type="text" placeholder="Karl Karlsson" name="name">    
                             </div>
                             <div class="inputGroup">
                                 <label for="Ab-name" class="labelRight">Företagets namn: </label>
-                                <input type="text" placeholder="Karlsson AB" name="Ab-name" class="">
+                                <input id="Ab-name" type="text" placeholder="Karlsson AB" name="Ab-name" class="">
                             </div>
                         </div>
                         <div class="formInputsBottom">
                             <div class="inputGroup inputGroupLeft">
                                 <label for="email">Email: </label>
-                                <input type="email" placeholder="exempel@exempel.com" name="email">
+                                <input id="email" type="email" placeholder="exempel@exempel.com" name="email">
                             </div>
                             <div class="inputGroup">
                                 <label for="tel" class="fromRight">Mobilnummer: </label>
-                                <input type="tel" placeholder="072-XXX XX XX" name="tel" class="">
+                                <input id="tel" type="tel" placeholder="072-XXX XX XX" name="tel" class="">
                             </div>
                         </div>
-                        <label for="">Meddelande: </label>
-                        <textarea name="msg" cols="30" rows="10" placeholder="Vad skulle vi kunna hjälpa dig med?" value></textarea>
+                        <label for="msg">Meddelande: </label>
+                        <textarea id="msg" name="msg" cols="30" rows="10" placeholder="Vad skulle vi kunna hjälpa dig med?"></textarea>
                         <input type="submit" value="Skicka">
+                    </div>
+                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    <div class="thankyou_message" style="display:none;">
+                        <h2><em>Tack</em> för att du kontaktar oss!
+                        Vi hör av oss så fort vi kan!</h2>
+                    </div>
                    </form>
                 </section>
         </section>
@@ -118,6 +126,8 @@
         <script src="scroll.js"></script>
         <script src="mobile.js"></script>
         <script src="cssRezise.js"></script>
-
+          <!-- Submit the Form to Google Using "AJAX" -->
+        <script data-cfasync="false" type="text/javascript"
+        src="form-submission-handler.js"></script>
     </body>
 </html>

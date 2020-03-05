@@ -478,25 +478,30 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     article {
+        margin: 1%;
+        height: 70%;
+        width: 98%;
+        padding-top: 20%;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 5%;
-        min-width: 31%;
-        margin: 5px;
         text-align: center;
         vertical-align: middle;
         h3 {
             color: white;
             width: auto;
             height: 20%;
-            margin-top: 25%;
-            font-size: 35px;
+            margin: 2%;
+            margin-top: 8%;
+            font-size: 33px;
         }
         .large-text {
             height: 60%;
-            margin-top: 20%;
+            margin-top: 3%;
         }
     }
     a {
+        min-width: 31%;
+        margin: 5px;
         text-decoration: none;
     }
     article:hover {
@@ -550,6 +555,26 @@ img {
         color: #f2f2f2;
         font-size: 25px;
     }
+}
+.pilupp {
+    position: fixed;
+    top: 87%;
+    left: 90%;
+    width: 6vw;
+    height: 6vw;
+    max-width: 55px;
+    max-height: 55px;
+    cursor: pointer;
+}
+.pilupp:hover {
+    top: 86%;
+    left: 89%;
+    width: 8vw;
+    height: 8vw;
+}
+.pilRotated {
+    animation-duration: 1.5s;
+    transform: rotate(180deg);
 }
 // Kund sidan
 .kunder-body{
@@ -1210,22 +1235,19 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         article {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 5%;
-            margin: 5px;
-            text-align: center;
-            vertical-align: middle;
-            
+            height: 65%;
             h3 {
                 color: white;
                 width: auto;
                 height: 20%;
-                margin-top: 25%;
-                font-size: 37px;
+                margin: 2%;
+                margin-top: 5%;
+                font-size: 33px;
             }
             .large-text {
+                padding-bottom: 20%;
                 height: 60%;
-                margin-top: 20%;
+                margin-bottom: 0;
             }
         }
        
