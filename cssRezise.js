@@ -1,4 +1,3 @@
-alert(window.innerWidth)
 $(window).resize(function() {
     let css = document.querySelector(".css")
     //let cssMobile = document.querySelector(".cssMobile")
