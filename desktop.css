@@ -107,7 +107,7 @@ img {
 }
 
 .scroll {
-  background-color: rgba(0, 15, 54, 0.9);
+  background-color: #000f36;
   -webkit-transition-duration: 800ms;
           transition-duration: 800ms;
 }
