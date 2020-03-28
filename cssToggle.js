@@ -2,7 +2,7 @@ let css = document.querySelector(".css")
 let displayBody = document.querySelector("body")
 let i = 0
 if(i<1) {
-  if(window.innerWidth > 600){
+  if(window.innerWidth > 668){
     css.href = 'desktop.css'
     css.classList.remove('cssMobile')
     css.classList.add('cssDesktop')

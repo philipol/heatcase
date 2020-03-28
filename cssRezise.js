@@ -3,7 +3,7 @@ $(window).resize(function() {
     let css = document.querySelector(".css")
     //let cssMobile = document.querySelector(".cssMobile")
     //let cssDesktop = document.querySelector(".cssDesktop")
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 668) {
       if(css.classList[1] == 'cssDesktop'){
         //console.log('Desktopversion redan innan')
       }else {
